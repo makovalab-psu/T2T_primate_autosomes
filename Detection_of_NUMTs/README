@@ -1,1 +1,9 @@
+############################################################
+# Identify NUMTs (Nuclear sequences of mitochondrial origin)
+############################################################
 
+1) Blast the mitochondrial (MT) genome to the nuclear (NUCL) genome to obtain candidate NUMT list.
+
+2) Merge overlapping NUMTs and those within 1000 bp flanks.
+
+3) Compute table of nuber of NUMTs and their total length (bp) per assembly.
