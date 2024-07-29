@@ -6,4 +6,4 @@
 
 2) Merge overlapping NUMTs and those within 1000 bp flanks.
 
-3) Compute table of nuber of NUMTs and their total length (bp) per assembly.
+3) Compute table of number of NUMTs and their total length (bp) per assembly.
