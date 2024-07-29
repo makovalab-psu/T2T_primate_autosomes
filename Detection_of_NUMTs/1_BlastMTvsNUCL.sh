@@ -10,6 +10,6 @@
 blastn -evalue 0.0001 -gapopen 5 -gapextend 2 -penalty -3 -reward 2 -task blastn \
        -query $REF_MT -subject $REF_NUCL -outfmt '7' > MTvsNUCL.${ASSEMBLY}.tab
 
-# Repeat the alignment with a relinearized MT genome (to account for breakpoint in assembly of a circular genome).
+# Repeat the alignment with a relinearized MT genome (to account for breakpoint in a linear assembly of a circular genome).
 blastn -evalue 0.0001 -gapopen 5 -gapextend 2 -penalty -3 -reward 2 -task blastn \
        -query $RELIN_MT -subject $REF_NUCL -outfmt '7' > relinMTvsNUCL.${ASSEMBLY}.tab
