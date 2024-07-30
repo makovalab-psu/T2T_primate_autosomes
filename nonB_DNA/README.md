@@ -2,7 +2,7 @@
 code written by Kaivan Kamali, Linnéa Smeds and Edmundo Torres-Gonzalez
 
 ## Non-B DNA annotation
-Non-B DNA annotation for A-phased repeats, short tandem repeats, direct repeats (slipped DNA), mirror repeats (triplex DNA), inverted repeats (cruciform DNA), and Z DNA was done with gfa ([https://github.com/abcsFrederick/non-B_gfa](https://github.com/abcsFrederick/non-B_gfa)); a detailed description of how the file structure and how the code was run can be found in: [https://github.com/kxk302/non-B_gfa/blob/master/gfa_README.txt](https://github.com/kxk302/non-B_gfa/blob/master/gfa_README.txt).
+Non-B DNA annotation for A-phased repeats, short tandem repeats, direct repeats (slipped DNA), mirror repeats (triplex DNA), inverted repeats (cruciform DNA), and Z DNA was done with gfa ([https://github.com/abcsFrederick/non-B_gfa](https://github.com/abcsFrederick/non-B_gfa)); a detailed description of the file structure and how the code was run can be found in: [https://github.com/kxk302/non-B_gfa/blob/master/gfa_README.txt](https://github.com/kxk302/non-B_gfa/blob/master/gfa_README.txt).
 G-quadruplexes (G4s) where annotated using Quadron. A dockerized version is found in [https://github.com/kxk302/Quadron_Docker](https://github.com/kxk302/Quadron_Docker).  
 
 Quadron output format was converted to bed format using:
