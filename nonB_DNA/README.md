@@ -14,7 +14,7 @@ done
  ```
 
 ## Identification of new sequence and non-B DNA enrichment
-The code for this analyses can be found in the shell script [new_sequence_enrichment_commands.sh](https://github.com/makovalab-psu/T2T_primate_autosomes/nonB_DNA/new_sequence_enrichment_commands.sh), that requires that lastz and bedtools are installed.
+The code for this analyses can be found in the shell script [new_sequence_enrichment_commands.sh](https://github.com/makovalab-psu/T2T_primate_autosomes/blob/main/nonB_DNA/new_sequence_enrichment_commands.sh)), that requires that lastz and bedtools are installed.
 
 #### Assembly versions used as 'old' (previous T2T) assemblies:
 | Species | pre-T2T Version |
@@ -23,6 +23,7 @@ The code for this analyses can be found in the shell script [new_sequence_enrich
 | Chimpanzee | panTro6.fa |
 | Gorilla | gorGor6.fa |
 | Sumatran orangutan | ponAbe3.fa |
+
 *Note that there were no previous assemblies for Bornean orangutan nor siamang*
 
 #### T2T assembly versions:
